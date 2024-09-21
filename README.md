@@ -31,7 +31,7 @@ Hi, my github is https://github.com/bbqz007.
   * you got it if it shows 32 bytes.
   * collect the hex bytes and make lowercase letters without spaces.
 
-<img src="https://github.com/bbqz007/CrackMicroMsgDBKey/blob/master/imgs/WeChat.x86.crackkey.png" width="61.8%">
+<img src="imgs/WeChat.x86.crackkey.png" width="61.8%">
 
 ## x64 
 * `s-a 0 L10000000 "-----BEGIN RSA PRIVATE KEY-----"`
@@ -46,12 +46,12 @@ Hi, my github is https://github.com/bbqz007.
   * you got it if it shows 32 bytes.
   * collect the hex bytes and make lowercase letters without spaces.
 
-<img src="https://github.com/bbqz007/CrackMicroMsgDBKey/blob/master/imgs/WeChat.x64.crackkey.png" width="61.8%">
+<img src="imgs/WeChat.x64.crackkey.png" width="61.8%">
  
 # preview
 i have the personal kit (https://github.com/bbqz007/KTL) to preview the MicroMsg db. when you get your hex key, and want to view your DBs, it can help you. my kit does not link any ws2_32.dll or any dll link to ws2_32.dll。my kit has a jitC can run cpp code as plugin. i write a patch AlgoDataTool.cpp (https://github.com/bbqz007/KTL/tree/master/patch/src/wechat-db) for setting hex key and other cipher stuffs. you can modify it for any and decide wether to run or not. my kit is mainly for offline analysis to stock market, and the data source including sqlite3-like db.
 
-<img src="https://github.com/bbqz007/KTL/blob/master/resources/GIF_KTL_WeChatDb.gif" width="61.8%">
+<img src="imgs/GIF_KTL_WeChatDb.gif" width="61.8%">
 
 # downloads
 * [MicroMsg (or WeChat) x64](https://github.com/tom-snow/wechat-windows-versions) : https://github.com/tom-snow/wechat-windows-versions
