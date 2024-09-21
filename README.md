@@ -47,3 +47,8 @@ Hi, my github is https://github.com/bbqz007.
 # preview
 i have the personal kit (https://github.com/bbqz007/KTL) to preview the MicroMsg db. when you get your hex key, and want to view your DBs, it can help you. my kit does not link any ws2_32.dll or any dll link to ws2_32.dll。my kit has a jitC can run cpp code as plugin. i write a patch AlgoDataTool.cpp for setting hex key and other cipher stuffs. you can modify it for any and decide wether to run or not. my kit is mainly for offline analysis to stock market, and the data source including sqlite3-like db.
 
+![img](https://github.com/bbqz007/KTL/blob/master/resources/GIF_KTL_WeChatDb.gif)
+
+# downloads
+* [MicroMsg (or WeChat) x64](https://github.com/tom-snow/wechat-windows-versions) : https://github.com/tom-snow/wechat-windows-versions
+* [MicroMsg (or WeChat) x86](https://github.com/tom-snow/wechat-windows-versions-x86) : https://github.com/tom-snow/wechat-windows-versions-86
