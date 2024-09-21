@@ -1,7 +1,7 @@
 # CrackMicroMsgDBKey
 Crack MicroMsg (or WeChat) DB Key, by using WinDbg
 # overview
-Well known as that, a MicroMsg (or WeChat) App uses sqlcipher to protecte the DBs in the client site. the android App used md5(imei+wxid) for the db key since the year more early than 2017, i am not sure they work like that still? but i am sure the the PC App productions use a 32 bytes db hexkey, and the key is calculated by the server, then storaged by the client site. thus we can scan the running memory of the client site to crack the db key.
+Well known as that, a MicroMsg (or WeChat) App uses sqlcipher to protect the DBs in the client site. the android App used md5(imei+wxid) for the db key since the year more earlier than 2017, i am not sure they work like that still? but i am sure the the PC App productions use a 32 bytes db hexkey, and the key is calculated by the server, then storaged by the client site. thus we can scan the running memory of the client site to crack the db key.
 
 # where
 the key is kept by the **AccountService** class. you can have the acknowledgement of the position of the key by the method `AccountService::setDBKey`. you need to reverse the this method and do some analysis when you want to get more details about it. otherwise, Fortunately, i have **how to** help you use windbg only to crack the db key simply.
