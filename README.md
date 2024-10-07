@@ -10,7 +10,7 @@ the key is kept by the **AccountService** class. you can have the acknowledgemen
 
 Hi, my github is https://github.com/bbqz007.
 
-# warnig
+# warning
 * there is no skilled requirement to crack your db key. any process can scan your MicroMsg (or WeChat) process by only a api `ReadProcessMemory`.
 * a security soft or Input Method Software, scans your PC more natively. they inject their dlls in every process.
 * this is a white hat to help you know about the risks. a user should have rights to have the acknowledgement.
